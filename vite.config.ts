@@ -4,5 +4,14 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
+     plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
+     server: {
+          open: "/test-layout",
+          hmr: {
+               overlay: false,
+          },
+     },
+     optimizeDeps: {
+          include: ["react", "react-dom"],
+     },
 });
