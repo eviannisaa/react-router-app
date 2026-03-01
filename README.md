@@ -8,7 +8,7 @@ A React application built with React Router for a clean and structured developme
 
 - 🔒 TypeScript as the default for type safety
 - 🎉 TailwindCSS for styling
-- 📖 React Router for routing ([see docs](https://reactrouter.com/))
+- 📖 React Router for handling navigation and page routing within the React application ([see docs](https://reactrouter.com/))
 
 ## Getting Started
 
